@@ -3,8 +3,13 @@ const {
   createWorkout,
   getWorkouts,
   getWorkout,
+<<<<<<< HEAD
   updateWorkout,
   deleteWorkout,
+=======
+  deleteWorkout,
+  updateWorkout,
+>>>>>>> 61056082f4ca8b52a8e74ec49b086fc2df44dcca
 } = require('../controllers/workoutController');
 
 const router = express.Router();
